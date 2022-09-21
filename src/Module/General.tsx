@@ -34,10 +34,10 @@ import Ryah from './Assets/teami/Ryah.jpg';
 import zoha from './Assets/teami/zoha.png';
 
 const TOP_SECTION = {
-  TITLE: 'Join Limbo Hacks',
-  Typed_effect: ['24 hours of creation', 'Win awesome prizes'],
+  TITLE: 'AUSS Club Presents',
+  Typed_effect: ['HackTober 2022', 'Internal Hackathon'],
   SHORT_DESCRIPTION:
-    'Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.',
+    'Join us on this October with over 300 students from our very own Amrita Campus for a Month of creation, innovation, & fun.',
   IMG_SRC: boy,
   DISCORD_LINK: '',
   JUDGES_FORM_LINK:
@@ -57,9 +57,9 @@ const SOCIALS = {
 };
 
 const MIDDLE_SECTION = {
-  TITLE: 'What is Limbo hacks?',
+  TITLE: 'What is HackTober 2022?',
   LONG_DESCRIPTION:
-    'Hack Limbo is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Limbo Hacks will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.',
+    'HackTober 22 is month long running hackathon will be held in the Month of October, We call for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the month hackers at HackTober will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.',
   LOGO: hackathonLogo
 };
 
@@ -90,13 +90,13 @@ const FOOTER = {
  */
 
 const calenderStartingDate = {
-  month: 12,
-  year: 2021
+  month: 10,
+  year: 2022
 };
 
 const schedule = [
   {
-    day: '8-11-2021',
+    day: '8-11-2022',
     events: [
       {
         title: 'Intro to phycycology',
@@ -106,7 +106,7 @@ const schedule = [
     ]
   },
   {
-    day: '5-12-2021',
+    day: '5-12-2022',
     events: [
       {
         title: 'Intro to deep learning',
@@ -121,7 +121,7 @@ const schedule = [
     ]
   },
   {
-    day: '3-12-2021',
+    day: '3-12-2022',
     events: [
       {
         title: 'Intro to phycycology',
@@ -131,7 +131,7 @@ const schedule = [
     ]
   },
   {
-    day: '1-12-2021',
+    day: '1-12-2022',
     events: [
       {
         title: 'Intro to deep learning',
@@ -141,7 +141,7 @@ const schedule = [
     ]
   },
   {
-    day: '1-1-2022',
+    day: '1-1-2023',
     events: [
       {
         title: 'Intro to phycycology',
@@ -169,55 +169,48 @@ const Prizeinfo = [
     //Array 1
     {
       icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: 'overall First',
-      content:
-        'First Overall prize will be given to a project that outstands all other submissions'
+      type: 'First',
+      content: `Get a LinkedIn certified winner's Certificate and winners Trophy. You also get admitted into the AUSS Club`
     },
     {
       icon: <i className=" second fas fa-4x fa-medal"></i>,
-      type: 'overall Second',
-      content:
-        'Second Overall prize will be given to the second best project of the hackathon'
-    },
-    {
-      icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
-      type: 'Third Second',
-      content:
-        'Best third overall project of the hackathon will win some awesome prizes'
-    }
-  ],
-  [
-    //Array 2
-    {
-      icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
-      type: 'Best Solo',
-      content:
-        'You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team'
-    },
-    {
-      icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: ' Best Beginner',
-      content: 'Your project will qualify for this category if atleast 50% '
-    },
-    {
-      icon: <i className=" fifth fa-3x fas fa-book-open"></i>,
-      type: 'Best UI/UX',
-      content: 'Project with most creative designs will be UI/UX track'
-    }
-  ],
-  [
-    //Array 3
-    {
-      icon: <i className="fas fa-4x sixth fa-male"></i>,
-      type: 'Best Web App with Qoom',
-      content: 'Must use qoom in your project to win this category'
+      type: 'Second',
+      content: `Get a LinkedIn certified runner's up Certificate and admission into the AUSS club.`
     },
     {
       icon: <i className="fas fa-user-friends seventh fa-3x "></i>,
-      type: 'More prizes',
-      content: 'More prizes will be revealed later'
+      type: 'Other Prizes',
+      content: `Teams that display effort and interest may also get admission into the AUSS club as well as consideration for any further competiions`
     }
   ]
+  // [
+  //   //Array 2
+  //   {
+  //     icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
+  //     type: 'Best Solo',
+  //     content:
+  //       'You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team'
+  //   },
+  //   {
+  //     icon: <i className="first fas fa-4x fa-trophy"></i>,
+  //     type: ' Best Beginner',
+  //     content: 'Your project will qualify for this category if atleast 50% '
+  //   },
+  //   {
+  //     icon: <i className=" fifth fa-3x fas fa-book-open"></i>,
+  //     type: 'Best UI/UX',
+  //     content: 'Project with most creative designs will be UI/UX track'
+  //   }
+  // ],
+  // [
+  //   //Array 3
+  //   {
+  //     icon: <i className="fas fa-4x sixth fa-male"></i>,
+  //     type: 'Best Web App with Qoom',
+  //     content: 'Must use qoom in your project to win this category'
+  //   },
+
+  // ]
 ];
 
 /** Instructions
@@ -230,44 +223,45 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: 'Rehan',
-      role: 'Organizer',
+      Name: 'Dhruvjyoti Swain',
+      role: 'Organizer/ President AUSS club',
       github: 'https://github.com/Limbo-Hacks/Hackathon-website-template',
       linkedin: '',
       img: me
     },
     {
-      Name: 'Moon',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: moon
-    },
-    {
-      Name: 'Erika',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: Ryah
-    }
-  ],
-  [
-    //Array 2
-    {
-      Name: 'Lyanola',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: lyin
-    },
-    {
-      Name: 'Zoheb',
-      role: 'Organizer',
+      Name: 'G Sabari',
+      role: 'Organizer/ Vice President AUSS CLUB',
       github: '',
       linkedin: '',
       img: zoha
     }
+    // {
+    //   Name: 'Moon',
+    //   role: 'Organizer',
+    //   github: '',
+    //   linkedin: '',
+    //   img: moon
+    // },
+    // {
+    //   Name: 'Erika',
+    //   role: 'Organizer',
+    //   github: '',
+    //   linkedin: '',
+    //   img: Ryah
+    // }
   ]
+  // [
+  //   //Array 2
+  //   {
+  //     Name: 'Lyanola',
+  //     role: 'Organizer',
+  //     github: '',
+  //     linkedin: '',
+  //     img: lyin
+  //   },
+
+  // ]
 ];
 
 const JudgesInfo = [
@@ -336,22 +330,22 @@ const frequentlyAskedQuestions = [
       {
         label: 'What is a hackathon?',
         content:
-          'A hackathon is a 24 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'
+          'A hackathon is a event where "hackers" can collaborate on creating a functioning software or hardware by the end of the event on their choice of a problem statement over a fixed period of time.'
       },
       {
         label: 'Who can attend?',
         content:
-          'Limbo Hacks is open to all undergraduate, high school students and middle school students from all schools.'
+          'This Hackathon is currently open for all students of Amrita University Amritapuri from any branch.'
       },
       {
         label: 'I am a first time hacker, what should I do?',
         content:
-          'No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathon and hacking in general.'
+          'No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events as well as mentors which will help you get started with hackathon and hacking in general.'
       },
       {
         label: 'How team formation works?',
         content:
-          "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
+          "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team in our discord!"
       }
     ],
     [
@@ -363,7 +357,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'I have more questions?',
         content:
-          'Reach us directly at (rehan@limbohacks.tech or hello@limbohacks.tech) we would happy to help you.'
+          'Reach us directly by emailing at amenu4aie20023@am.students.amrita.edu or amenu4aie20026@am.students.amrita.edu we would happy to help you.'
       },
       {
         label: 'Can i volunteer?',
@@ -372,7 +366,7 @@ const frequentlyAskedQuestions = [
       },
       {
         label: 'Will there be swag?',
-        content: 'Yes! Participants will recieveing Limbo Hacks swag!.'
+        content: 'Yes! Participants will recieveing AUSS Club swag!.'
       }
     ]
   ]

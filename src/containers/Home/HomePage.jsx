@@ -147,7 +147,7 @@ export default function HomePage() {
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
           <SponsorUS />
-          {sponsorLogos.map(SponsorGroup)}
+          {/* {sponsorLogos.map(SponsorGroup)} */}
         </Row>
         {/* ********Sponsors ending here ***** */}
 
