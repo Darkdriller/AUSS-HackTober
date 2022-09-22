@@ -265,6 +265,7 @@ const TeamInfo = [
 ];
 
 const JudgesInfo = [
+  []
   // [
   //   //Array 1
   //   {
