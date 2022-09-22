@@ -265,47 +265,47 @@ const TeamInfo = [
 ];
 
 const JudgesInfo = [
-  [
-    //Array 1
-    {
-      Name: 'Rehan',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: me
-    },
-    {
-      Name: 'Moon',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: moon
-    },
-    {
-      Name: 'Ryah Garcia',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: Ryah
-    }
-  ],
-  [
-    //Array 2
-    {
-      Name: 'Lyanola',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: lyin
-    },
-    {
-      Name: 'Zoheb',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: zoha
-    }
-  ]
+  // [
+  //   //Array 1
+  //   {
+  //     Name: 'Rehan',
+  //     role: 'Organizer',
+  //     github: '',
+  //     linkedin: '',
+  //     img: me
+  //   },
+  //   {
+  //     Name: 'Moon',
+  //     role: 'Organizer',
+  //     github: '',
+  //     linkedin: '',
+  //     img: moon
+  //   },
+  //   {
+  //     Name: 'Ryah Garcia',
+  //     role: 'Organizer',
+  //     github: '',
+  //     linkedin: '',
+  //     img: Ryah
+  //   }
+  // ],
+  // [
+  //   //Array 2
+  //   {
+  //     Name: 'Lyanola',
+  //     role: 'Organizer',
+  //     github: '',
+  //     linkedin: '',
+  //     img: lyin
+  //   },
+  //   {
+  //     Name: 'Zoheb',
+  //     role: 'Organizer',
+  //     github: '',
+  //     linkedin: '',
+  //     img: zoha
+  //   }
+  // ]
 ];
 
 /** Instructions
