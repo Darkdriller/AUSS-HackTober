@@ -175,6 +175,10 @@ export default function HomePage() {
             content="Interested in being judge"
           />
         )}
+        <Row className="prizesection non-coding">
+          {/* <PrizeHeading type="Non-coding prizes" /`> */}
+          <h2>Currently Recruiting</h2>
+        </Row>
         {JudgesInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
       </Container>
